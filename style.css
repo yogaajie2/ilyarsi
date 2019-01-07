@@ -1,0 +1,153 @@
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h4, p, a, address {
+	font-family: 'Raleway', sans-serif;
+}
+
+a {
+	font-weight: bold;
+	color: #000;
+}
+
+a:hover {
+	color: #00ccff;
+	text-decoration: none;
+}
+
+.landing-page {
+	background: url(img/index.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+}
+
+.language-overlay {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	opacity: 0;
+	transition: opacity 500ms ease-in-out;
+}
+
+.language-overlay:hover {
+    opacity: 1;
+}
+
+.language-overlay-text {
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.language {
+	background-color: #ff9933;
+}
+
+.language small a {
+	color: #fff;
+}
+
+.menu {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.carousel-slide-1 {
+	background: url(img/main-carousel/main-carousel-1.jpg);
+	background-position: bottom;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+}
+
+.carousel-slide-2 {
+	background: url(img/main-carousel/main-carousel-2.jpg);
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+}
+
+.carousel-slide-1, .carousel-slide-2 {
+	height: 500px;
+	background-size: cover;
+}
+
+.top-slogan, .welcome-text {
+	color: #fff;
+}
+
+.main-features {
+	width: 100%; 
+	height: 200px; 
+}
+
+.gray-background {
+	background-color: #e9e7e5;
+}
+
+.center-jumbotron {
+	height: 500px;
+	background: url(img/center-jumbotron/center-jumbotron.jpg);
+	background-size: cover;
+	background-position: top;
+}
+
+.center-jumbotron-text {
+	color: #fff;
+}
+
+.jumbotron-button {
+	font-weight: bold;
+	color: #fff;
+	background-color: #ff9933;
+	padding: 10px;
+}
+
+.jumbotron-button:hover {
+	color: #ff9933;
+	background-color: #fff;
+}
+
+.projects {
+	height: 170px;
+}
+
+.project-overlay {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 153, 51, 0.5);
+	opacity: 0;
+	transition: opacity 500ms ease-in-out;
+}
+
+.project-overlay:hover {
+    opacity: 1;
+}
+
+.project-overlay-text {
+	top: 75%;
+    left: 25%;
+    transform: translate(-25%, -75%);
+    color: #fff;
+}
+
+footer {
+	background-color: #ccefff;
+}
+
+footer p {
+	color: #000;
+}
+
+@media only screen and (max-width: 767px) {
+	.top-slogan, .welcome-text {
+		font-size: xx-large;
+	}
+
+	.work-name {
+		font-size: medium;
+	}
+}
