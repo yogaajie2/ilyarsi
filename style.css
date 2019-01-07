@@ -1,13 +1,12 @@
 h1, h2, h3 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 h4, p, a, address {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 a {
-	font-weight: bold;
 	color: #000;
 }
 
@@ -71,6 +70,19 @@ a:hover {
 .carousel-slide-1, .carousel-slide-2 {
 	height: 500px;
 	background-size: cover;
+}
+
+.testi-slide-1 {
+    background-color: #11627f;
+}
+
+.testi-slide-2 {
+    background-color: #11627f;
+}
+
+.testi-slide-1, .testi-slide-2 {
+    height: 400px;
+    background-size: cover;
 }
 
 .top-slogan, .welcome-text {

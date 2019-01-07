@@ -1,7 +1,7 @@
 <?php include ('fungsi/koneksi.php'); ?>
 
 <footer class="container-fluid py-3 mt-5">
-	<div class="container">
+	<div class="container w-75">
 		<div class="row mt-5">
 			<div class="col-md-6 my-3">
 				<h3>Hubungi kami sekarang untuk konsultasi:</h3>
